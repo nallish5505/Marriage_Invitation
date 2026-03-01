@@ -27,7 +27,6 @@ function abouutpage() {
     var c = a.slice(1,a.length).toLowerCase();
     aboutPage.style.display = "block";
     alert("You are invited for the Wedding function "+(b+c)+"!!");
-    
 }
 
 function timeepage() {
@@ -112,6 +111,7 @@ function claps(){
     alert("👏")
 
 }
+
 
 
 
