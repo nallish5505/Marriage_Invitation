@@ -19,12 +19,12 @@ function home() {
     hideAll();
     homePage.style.display = "block";
 }
-var a,b,c;
+
 function abouutpage() {
     hideAll();
-    a = prompt("Enter your name");
-    b = a.charAt(0).toUpperCase();
-    c = a.slice(1,a.length).toLowerCase();
+    var a = prompt("Enter your name");
+    var b = a.charAt(0).toUpperCase();
+    var c = a.slice(1,a.length).toLowerCase();
     aboutPage.style.display = "block";
     
 }
@@ -114,5 +114,6 @@ function claps(){
 var d = b+c;
 var use = document.getElementById("username");
 use.innerText=`Hello there,Welecome ${d} !!`;
+
 
 
