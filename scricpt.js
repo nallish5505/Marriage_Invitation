@@ -113,7 +113,8 @@ function claps(){
 }
 var d = b+c;
 var use = document.getElementById("username");
-use.innerText=`Hello there,Welecome ${a} !!`;
+use.textContent=`Hello there,Welecome ${a} !!`;
+
 
 
 
