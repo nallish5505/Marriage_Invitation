@@ -19,14 +19,14 @@ function home() {
     hideAll();
     homePage.style.display = "block";
 }
-
+var a,b,c;
 function abouutpage() {
     hideAll();
-    var a = prompt("Enter your name");
-    var b = a.charAt(0).toUpperCase();
-    var c = a.slice(1,a.length).toLowerCase();
+    a = prompt("Enter your name");
+    b = a.charAt(0).toUpperCase();
+    c = a.slice(1,a.length).toLowerCase();
     aboutPage.style.display = "block";
-    alert("You are invited for the Wedding function "+(b+c)+"!!")
+    
 }
 
 function timeepage() {
@@ -109,4 +109,7 @@ function greenheart(){
 }
 function claps(){
     alert("👏")
+
 }
+var user = document.getElementById("username");
+user.textContent=`Hello there,Welecome ${b+c} !!`;
