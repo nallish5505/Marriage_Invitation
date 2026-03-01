@@ -111,6 +111,8 @@ function claps(){
     alert("👏")
 
 }
+var d = b+c;
 var use = document.getElementById("username");
-use.innerText=`Hello there,Welecome ${b+c} !!`;
+use.innerText=`Hello there,Welecome ${d} !!`;
+
 
