@@ -22,7 +22,7 @@ function home() {
 
 function abouutpage() {
     hideAll();
-    var a = prompt("Enter your name");
+    var a = prompt("Please, Enter your name");
     var b = a.charAt(0).toUpperCase();
     var c = a.slice(1,a.length).toLowerCase();
     aboutPage.style.display = "block";
@@ -111,6 +111,7 @@ function claps(){
     alert("👏")
 
 }
+
 
 
 
